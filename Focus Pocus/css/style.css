@@ -1,0 +1,49 @@
+.header_bar {
+    background: #132639;
+}
+header {
+    background: #132639;
+}
+.nav_color {
+    background: #132639;
+    margin-left: 50px;
+}
+.feature_box {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    border-width: 5px;
+    background: rgb(33, 36, 48);
+    padding: 5px;
+    color: whitesmoke;
+    border: dotted black;
+    padding-bottom: 10px;
+}
+footer {
+    background: rgb(33, 36, 48);
+    color: cornsilk;
+}
+.in-button {
+    border: none;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+body {
+    background: rgb(61, 66, 85);
+}
+.feature-box {
+    background: rgb(33, 36, 48, 0.5);
+    margin: 10px;
+}
+.indibox {
+    margin: 50px;
+    color: white;
+}
+hr {
+    color: chartreuse;
+}
