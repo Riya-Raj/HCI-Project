@@ -1,0 +1,36 @@
+.hidden {
+  display: none;
+}
+
+#pomodoro-clock {
+  size: 400px;
+}
+
+#pomodoro-clock-task {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#pomodoro-clock-title {
+  margin-top: 20px;
+}
+
+.pomodoro-input {
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#input-work-duration {
+  margin-left: 5px;
+}
+
+#input-break-duration {
+  margin-left: 5px;
+}
+
+#pomodoro-container {
+  text-align: center;
+}
+
