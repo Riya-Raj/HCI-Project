@@ -3,7 +3,7 @@
 }
 
 #pomodoro-container {
-  background-color: cornflowerblue;
+  background: #132639;
   margin-top: -7px;
   margin-right: -7px;
   margin-bottom: -20px;
@@ -15,19 +15,19 @@
   font-size: 90px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  margin-right: 370px;
-  margin-left: 370px;
+  margin-left: 60px;
+  margin-right: 60px;
   padding-bottom: 40px;
 }
 
 #pomodoro-clock-task {
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 5px;
+  width: 400px;
+  height: 35px;
 }
 
-#pomodoro-clock-title {
-  margin-top: 20px;
-}
 
 .pomodoro-input {
   display: flex;
@@ -45,8 +45,42 @@
 
 #pomodoro-info {
   font-size: larger;
+  background-color: beige;
+  color: black;
+  border-radius: 30px;
+  height: 200px;
+  margin-top: 30px;
+  padding: 20px;
+  overflow: auto;
+  font-family: 'Chewy';
+  border: solid red;
 }
 
 #pomodoro-sessions {
   font-size: large;
+}
+body {
+  background: #132639;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#pomodoro-clock {
+  font-family: 'Armata';
+  color: antiquewhite;
+}
+.input-box {
+  background-color: white;
+  border-radius: 30px;
+  border-width: 15px;
+  border-color: red;
+  color: black;
+  padding: 20px;
+  border: solid red;
+  font-family: 'Chewy';
+}
+
+#pomodoro-start, #pomodoro-stop {
+  border: none;
+  padding: 15px;
+  background-color: aquamarine;
 }
