@@ -1,0 +1,86 @@
+.hidden {
+  display: none;
+}
+
+#pomodoro-container {
+  background: #132639;
+  margin-top: -7px;
+  margin-right: -7px;
+  margin-bottom: -20px;
+  margin-left: -7px;
+  text-align: center;
+}
+
+#pomodoro-timer {
+  font-size: 90px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-bottom: 40px;
+}
+
+#pomodoro-clock-task {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 400px;
+  height: 35px;
+}
+
+
+.pomodoro-input {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#input-work-duration {
+  margin-left: 5px;
+}
+
+#input-break-duration {
+  margin-left: 5px;
+}
+
+#pomodoro-info {
+  font-size: larger;
+  background-color: beige;
+  color: black;
+  border-radius: 30px;
+  height: 200px;
+  margin-top: 30px;
+  padding: 20px;
+  overflow: auto;
+  font-family: 'Chewy';
+  border: solid red;
+}
+
+#pomodoro-sessions {
+  font-size: large;
+}
+body {
+  background: #132639;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#pomodoro-clock {
+  font-family: 'Armata';
+  color: antiquewhite;
+}
+.input-box {
+  background-color: white;
+  border-radius: 30px;
+  border-width: 15px;
+  border-color: red;
+  color: black;
+  padding: 20px;
+  border: solid red;
+  font-family: 'Chewy';
+}
+
+#pomodoro-start, #pomodoro-stop {
+  border: none;
+  padding: 15px;
+  background-color: aquamarine;
+}

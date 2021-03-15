@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tomato Timer</title>
+	<link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet'>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./scroll.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+
+	<head>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet" />
+		<script src="progressBar.js"></script>
+	</head>
+	<div class="container">
+		<div class="row">
+			<center><h1 style="font-family: 'Chewy'; color: red; font-size: 50px;">Pomodoro Timer</h1></center>
+		</div>
+		<div class="row" style="margin-bottom: 20px;">
+			<div class="col-7">
+				<div id="pomodoro-container">
+					<div id="pomodoro-clock">
+						<div id="pomodoro-timer"></div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-5">
+				<div class="row input-box">
+					<div class="col-12">
+						<div>
+							<input type="text" id="pomodoro-clock-task" placeholder="Enter your task..." />
+						</div>
+						<div id="pomodoro-clock-actions">
+							<center>
+								<button id="pomodoro-start">
+									<i class="fas fa-play" id="play-icon"></i>
+									<i class="fas fa-pause hidden" id="pause-icon"></i>
+								</button>
+								<button id="pomodoro-stop" class="hidden">
+									<i class="fas fa-stop"></i>
+								</button>
+							</center>
+								
+						</div>
+						<!-- new -->
+						<div id="pomodoro-clock-title">
+							<span>
+								Changes made here will reflect at the start of the next work /
+								break session
+							</span>
+						</div>
+						<div id="pomodoro-clock-actions">
+							<div class="pomodoro-input">
+								<label>Work Duration</label>
+								<input name="input-work-duration" id="input-work-duration" type="number" />
+							</div>
+							<div class="pomodoro-input">
+								<label>Break Duration</label>
+								<input name="input-break-duration" id="input-break-duration" type="number" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div id="pomodoro-info">
+							<h3>Your Sessions </h3>
+							<ul id="pomodoro-sessions">
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js'></script>
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
