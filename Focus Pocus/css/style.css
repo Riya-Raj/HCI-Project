@@ -43,7 +43,35 @@ body {
 .indibox {
     margin: 50px;
     color: white;
+    font-family: 'Arima Madurai';
+    font-size: 18px;
 }
 hr {
     color: chartreuse;
+}
+
+.modal-header {
+    background: rgb(54,54,79);
+    background: linear-gradient(90deg, rgba(54,54,79,1) 34%, rgba(255,0,0,1) 75%, rgba(236,127,18,1) 95%);
+    color: blanchedalmond;
+}
+
+.modal-body {
+    background: rgb(229, 219, 241);
+}
+
+.form_custom {
+    border-color: rgb(54,54,79);
+}
+
+.can_but, .in_but {
+    padding: 15px;
+    font-size: 18px;
+    font-family: Arima Madurai;
+}
+.can_but {
+    background-color: rgb(61, 66, 85);
+}
+.in_but {
+    background-color: rgb(202, 29, 29);
 }

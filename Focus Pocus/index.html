@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <head>
-    <title>Hocus Pocus</title>
+    <title>Focus Pocus</title>
     <!-- CSS only -->
+    <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
@@ -49,27 +51,29 @@
                     </div>
                     <div class="modal-body">
                         <form>
-                            <div class="form-row">
-                                <div class="form-group col-sm-4">
+                            <div class="row">
+                                <div class="col-sm-4">
                                     <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                                    <input type="email" class="form-control form-control-sm mr-1 form_custom" id="exampleInputEmail3" placeholder="Enter email">
                                 </div>
-                                <div class="form-group col-sm-4">
+                                <div class="col-sm-4">
                                     <label class="sr-only" for="exampleInputPassword3">Password</label>
-                                    <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                                    <input type="password" class="form-control form-control-sm mr-1 form_custom" id="exampleInputPassword3" placeholder="Password">
                                 </div>
+                            </div><br>
+                            <div class="form-row">
                                 <div class="col-sm-auto">
                                     <div class="form-check">
                                         <input type="checkbox" class="form-check-label">
                                         <label class="form-check-label"> Remember me</label>
                                     </div>
                                 </div>
-                            </div>
+                            </div><br>
                             <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" id="dismissLoginModal2">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto can_but" id="dismissLoginModal2">
                                     Cancel
                                 </button>
-                                <button type="submit" class="btn btn-primary btn-sm ml-1">
+                                <button type="submit" class="btn btn-primary btn-sm ml-1 in_but">
                                     Sign in
                                 </button>
                             </div>
@@ -83,13 +87,13 @@
             <br><br>
             <div class="row row-header">
                 <div class="col-3">
-                    <h1 style="color: antiquewhite;">HOCUS POCUS</h1>
+                    <h1 style="color: antiquewhite;">FOCUS POCUS</h1>
                 </div>
                 <div class="col-5">
                     <img src="images/conc.jpg" width="200px" height="150px">
                 </div>
                 <div class="col-4">
-                    <p style="color: antiquewhite;">Are you having troubles concentrating? Do you wish to improve your attention span? No more worries! We have solutions to all your problems. SIGN UP NOW FOR THE AMAZING FEATURES!</p>
+                    <p style="color: antiquewhite; font-family: 'Armata';">Are you having troubles concentrating? Do you wish to improve your attention span? No more worries! We have solutions to all your problems.<i> SIGN UP NOW FOR THE AMAZING FEATURES!</i></p>
                 </div>
             </div>
             <br><br>
@@ -104,15 +108,15 @@
             </div>
             <div class="col-3 feature_box">
                 <h4>Pomodoro Special</h4>
-                <a href="#pomodoro"><img src="images/peer.jpg" height="300px" width="200px"></a>
+                <a href="#pomodoro"><img src="images/pomo.jpg" height="300px" width="200px"></a>
             </div>
             <div class="col-3 feature_box">
                 <h4>Leader Board System</h4>
-                <a href="#leaderboard"><img src="images/peer.jpg" height="300px" width="200px"></a>
+                <a href="#leaderboard"><img src="images/leader.png" height="300px" width="200px"></a>
             </div>
             <div class="col-3 feature_box">
                 <h4>Exciting Modes!</h4>
-                <a href="#mode"><img src="images/peer.jpg" height="300px" width="200px"></a>
+                <a href="#mode"><img src="images/levels.jpg" height="300px" width="200px"></a>
             </div>
         </div>
         <br><br><br><br><br><br>
@@ -120,7 +124,7 @@
             <br><br>
             <div class="row row-content align-items-center indibox" id="peer">
                 <div class="row">
-                    <h2 class="mt-0" style="color: red;">Peer-to-peer Activity</h2>
+                    <h2 class="mt-0" style="color: red; font-family: 'Armata';">Peer-to-peer Activity</h2>
                 </div>
                 <div class="row">
                     <div class="col-3">
@@ -136,7 +140,7 @@
             <br><br><hr><br><br>
             <div class="row row-content justify-content-end indibox" id="pomodoro">
                 <div class="row">
-                    <h2 class="mt-0" style="text-align: end; color: red;">Pomodoro Special</h2>
+                    <h2 class="mt-0" style="text-align: end; color: red; font-family: 'Armata';">Pomodoro Special</h2>
                 </div>
                 <div class="row justify-content-end">                
                     <div class="col-7">
@@ -145,18 +149,18 @@
                         </p>
                     </div>
                     <div class="col-3">
-                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/peer.jpg" alt="peer" height="150px" width="200px">
+                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/pomo.jpg" alt="peer" height="200px" width="200px">
                     </div>
                 </div>
             </div>
             <br><br><hr><br><br>
             <div class="row row-content align-items-center indibox" id="leaderboard">
                 <div class="row">
-                    <h2 class="mt-0" style="color: red;">JOIN THE RACE! Top the LEADERBOARD!!</h2>
+                    <h2 class="mt-0" style="color: red; font-family: 'Armata';">JOIN THE RACE! Top the LEADERBOARD!!</h2>
                 </div>
                 <div class="row">
                     <div class="col-3">
-                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/peer.jpg" alt="peer" height="150px" width="200px">
+                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/leader.png" alt="peer" height="150px" width="200px">
                     </div>
                     <div class="col-6">
                         <p class="d-none d-sm-block">A lot of students study and learn better when in groups. Often students feel frustrated having to work alone, not knowing how to solve a problem. 
@@ -168,7 +172,7 @@
             <br><br><hr><br><br>
             <div class="row row-content align-items-center indibox" id="mode">
                 <div class="row">
-                    <h2 class="mt-0" style="text-align: end; color: red;">Explore the exciting MODES!!</h2>
+                    <h2 class="mt-0" style="text-align: end; color: red; font-family: 'Armata';">Explore the exciting MODES!!</h2>
                 </div>
                 <div class="row justify-content-end">                
                     <div class="col-7">
@@ -177,7 +181,7 @@
                         </p>
                     </div>
                     <div class="col-3">
-                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/peer.jpg" alt="peer" height="150px" width="200px">
+                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/levels.jpg" alt="peer" height="150px" width="200px">
                     </div>
                 </div>
             </div>
@@ -206,7 +210,7 @@
 		              Hyderabad<br>
 		              <i class="fa fa-phone fa-lg"></i>: +91 8290960113<br>
 		              <i class="fa fa-fax fa-lg"></i>: +91 9876543211<br>
-		              <i class="fa fa-envelope"></i>: <a href="hocuspocus@study.net">hocuspocus@study.net</a>
+		              <i class="fa fa-envelope"></i>: <a href="focuspocus@study.net">focuspocus@study.net</a>
 		           </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
@@ -222,7 +226,7 @@
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2021 Hocus Pocus Association</p>
+                    <p>© Copyright 2021 focus Pocus Association</p>
                 </div>
            </div>
            <br><br><br>
