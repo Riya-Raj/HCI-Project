@@ -3,8 +3,10 @@
 }
 
 #pomodoro-container {
+  background-color: cornflowerblue;
   margin-top: -7px;
   margin-right: -7px;
+  margin-bottom: -20px;
   margin-left: -7px;
   text-align: center;
 }
@@ -13,9 +15,8 @@
   font-size: 90px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  margin-top: 40px;
-  margin-right: 400px;
-  margin-left: 400px;
+  margin-right: 370px;
+  margin-left: 370px;
   padding-bottom: 40px;
 }
 
