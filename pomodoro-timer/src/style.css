@@ -2,8 +2,14 @@
   display: none;
 }
 
+#pomodoro-timer {
+  font-size: 90px;
+  padding-bottom: 40px;
+  margin: -90px, -90px, -90px, -90px;
+}
+
 #pomodoro-clock {
-  size: 400px;
+  margin: 100px 100px 100px 100px;
 }
 
 #pomodoro-clock-task {
@@ -34,3 +40,10 @@
   text-align: center;
 }
 
+#pomodoro-info {
+  font-size: larger;
+}
+
+#pomodoro-sessions {
+  font-size: large;
+}

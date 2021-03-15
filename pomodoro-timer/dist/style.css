@@ -2,8 +2,21 @@
   display: none;
 }
 
-#pomodoro-clock {
-  margin: 100px 100px 100px 100px;
+#pomodoro-container {
+  margin-top: -7px;
+  margin-right: -7px;
+  margin-left: -7px;
+  text-align: center;
+}
+
+#pomodoro-timer {
+  font-size: 90px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-right: 400px;
+  margin-left: 400px;
+  padding-bottom: 40px;
 }
 
 #pomodoro-clock-task {
@@ -17,7 +30,6 @@
 
 .pomodoro-input {
   display: flex;
-  /*flex-direction: column;*/
   justify-content: center;
   padding-top: 20px;
 }
@@ -28,10 +40,6 @@
 
 #input-break-duration {
   margin-left: 5px;
-}
-
-#pomodoro-container {
-  text-align: center;
 }
 
 #pomodoro-info {
