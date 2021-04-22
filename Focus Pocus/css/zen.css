@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(32, 4, 4);
+    margin: 0;
+
+}
+
+.zen-box {
+    background-image: url('../images/meditation-16.jpg');
+    width: 100%;
+    height: 900px;
+    padding-top: 50px;
+}
+
+.music-box {
+    background-color: rgb(32, 4, 4);    
+    height: 500px;
+    opacity: 0.85;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.music-playlist {
+    font-family: 'Chewy';
+    color: rgb(247, 68, 3);
+    list-style-type:none;
+    font-size: 30px;
+}
+.player {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.more-music {
+    background-color: black;
+    opacity: 0.85;
+    font-family: 'Chewy';
+    font-size: 30px;
+    height: 270px;
+    padding-top: 60px;
+    color: aliceblue;
+
+}
